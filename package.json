@@ -12,11 +12,11 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "^6.0.8",
-    "@angular/compiler-cli": "^6.0.4",
     "@angular/animations": "^6.0.3",
+    "@angular/cli": "^6.0.8",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
+    "@angular/compiler-cli": "^6.0.4",
     "@angular/core": "^6.0.3",
     "@angular/forms": "^6.0.3",
     "@angular/http": "^6.0.3",
@@ -27,6 +27,7 @@
     "@nguniversal/express-engine": "^6.0.0",
     "core-js": "^2.5.4",
     "express": "^4.16.3",
+    "path": "^0.12.7",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
