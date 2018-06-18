@@ -11,7 +11,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UrlFormComponent implements OnInit {
   title = 'Url Shotener';
-  short_url;
+  short_url:string = '';
+  url:string = '';
   angForm: FormGroup;
   constructor(private shortenerservice: ShortenerService, private fb: FormBuilder, private router: Router, private http: HttpClient) {
     this.createForm();
